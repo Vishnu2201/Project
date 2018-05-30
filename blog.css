@@ -1,0 +1,20 @@
+body {
+
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}

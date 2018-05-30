@@ -1,0 +1,24 @@
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+     background-color: white;
+}
+  .navbar {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+.photo{
+    float: right;
+    padding-left: 200px;
+    padding-top: 0px;
+    position: absolute;
+}

@@ -2,58 +2,51 @@
 <html lang="en">
 
 <head>
-
+    <title>AI Elon</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <title>Full - Start Bootstrap Template</title>
+    <link rel="stylesheet" href="homepageapp.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/full.css" rel="stylesheet">
-
-    <link href="homepageapp.css" rel="stylesheet">
-
-    <link href="animate.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
     <!-- or -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+
+
+    <style>
+        @font-face {
+            font-family: roboto;
+            src: url(Roboto-Thin.ttf);
+        }
+    </style>
 
 
 </head>
-<style>
-    @font-face {
-        font-family: roboto;
-        src: url(Roboto-Thin.ttf);
-    }
-</style>
-
 
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div id="navbar">
+            <div class="container">
+                <div class="navbar-header">
 
+                    <a class="navbar-brand" href="#">AIELON</a>
+                </div>
 
-    <!-- Navigation -->
-    <div id="navbar">
-        <div class="container">
-           
-            
-                <a href="contact.html">Contact Us</a>
-                <a id="research" href="research.html">Research</a>
-                <a href="blog.html">Blog</a>
-                <a href="homepage.html">Home</a>
-            
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="research.html">RESEARCH</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <!-- Page Content -->
-
-    <!-- 1st Page -->
+    </nav>
+    <!-- first continer-->
 
     <div class="header">
         <h1 id="awesome">AI Elon</h1>
@@ -65,10 +58,16 @@
     <div class="container">
         <div class="inner">
 
-            <h1>Contents</h1>
+            <h1>About US</h1>
+            <p>AI Elon is the world best personal AI. Which is capable of solving endless complex problems.</p>
+            <p>Our scientific mission is to build intelligence AI, enhancing human race by solving complex problems and to build your innovation alongside AI.</p>
         </div>
     </div>
+    <div class="container">
 
+        <img src="WhatsApp%20Image%202018-05-29%20at%206.48.34%20PM.jpeg" style="width:100%">
+
+    </div>
 
 
     <script>
@@ -79,16 +78,14 @@
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("navbar").style.top = "0";
+                document.getElementsById("navbar-scroll").style.top = "0";
             } else {
-                document.getElementById("navbar").style.top = "-50px";
+                document.getElementsById("navbar-scroll").style.top = "-50px";
             }
         }
     </script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="assets/jquery.min.js"></script>
-    <script src="assets/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
